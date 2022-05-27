@@ -13,7 +13,7 @@ var guessList = ["mario","luigi","peach","yoshi","kirby","sonic","scpsl","notch"
 
 //guessList = guessList.concat(wordList);
 
-var word = wordList[Math.floor(Math.random()*wordList.length)].toUpperCase();
+var word = guessList[Math.floor(Math.random()*guessList.length)].toUpperCase();
 console.log(word);
 
 window.onload = function(){
