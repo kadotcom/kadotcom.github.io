@@ -11,9 +11,9 @@ var wordList = ["cigar", "rebut", "sissy", "humph", "awake", "blush", "focal", "
 
 var guessList = ["mario","luigi","peach","yoshi","kirby","sonic","scpsl","notch","unity","games","gamer","tails","troll","unban","robux","music","quizs","chess","poker","bingo","rules"]
 
-//guessList = guessList.concat(wordList);
+guessList = guessList.concat(wordList);
 
-var word = guessList[Math.floor(Math.random()*guessList.length)].toUpperCase();
+var word = wordList[Math.floor(Math.random()*wordList.length)].toUpperCase();
 console.log(word);
 
 window.onload = function(){
