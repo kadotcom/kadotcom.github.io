@@ -1,4 +1,4 @@
-[
+export const WORDS = [
   "gamer",
   "games",
   "garry",
@@ -24,4 +24,4 @@
   "coins",
   "unban",
   "unity"
-]
+];
